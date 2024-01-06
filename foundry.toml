@@ -5,8 +5,8 @@ libs = ["lib"]
 remappings = ["openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"]
 ffi = true
 fs_permissions = [
+    { access = "read", path = "./images/" },
     { access = "read", path = "./broadcast" },
-    { access = "read", path = "./img" },
 ]
 
 
